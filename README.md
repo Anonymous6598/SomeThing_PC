@@ -1,2 +1,2 @@
-# NIS_osnovni_sajt
-Ovo je sajt NISa po prodaji nafte
+#SomeThing PC
+Ovo je sajt SomeThing PC po sklapanju PC
