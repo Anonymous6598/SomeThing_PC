@@ -1,1 +1,24 @@
-/* here will be our styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    padding: 0 1em;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.meni {
+    background-color: #ffe066;
+}
+
+    .meni ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        align-content: space-evenly;
+    }

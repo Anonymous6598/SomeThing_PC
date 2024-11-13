@@ -1,4 +1,4 @@
-/* here will be our styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,22 +6,35 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header{
-    padding: o 1em;
-    position: sticky;
+header {
     top: 0;
     left: 0;
-    
 }
+
 
 .meni {
     background-color: #ffe066;
-    
+    position: sticky;
 }
 
 .meni ul{
   list-style-type: none;
   display: flex;
   align-items: center;
-  align-content: space-evenly;
+  justify-content: space-around;
+}
+
+.meni ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.meni ul li{
+  padding: 1em;
+}
+
+.meni ul li:hover{
+  background-color: lightgray;
+
 }

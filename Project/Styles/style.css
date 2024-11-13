@@ -1,13 +1,26 @@
-/* here will be our styles */
-body{
+.meni {
+    background-color: #ffe066;
     
 }
-.header{
 
+.meni ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-div{
-    margin: 0 ;
-    padding: 0;
-    border: 0;
-    
+
+.meni ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.meni ul li{
+  padding: 1em;
+}
+
+.meni ul li:hover{
+  background-color: lightgray;
+
 }
