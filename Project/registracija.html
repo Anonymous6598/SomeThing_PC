@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html lang="rs">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Something PC</title>
+    <title>Computer Shop</title>
     <link rel="stylesheet" href="Styles/index.css">
     <link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
-    <header>    
     <div class="header">
         <img src="Slike/pclogo.png" height="300" width="300" alt="logo">
         <div class="meni">
-             <ul>
+            <ul>
                 <li><a href="index.html">Pocetna</a></li>
                 <li><a href="about_us.html">O nama</a></li>
                 <li><a href="prijava.html">Nalog</a></li>
                 <li><a href="products.html">Proizvodi</a></li>
-             </ul>
+            </ul>
         </div>
 
     </div>
-    </header>
-    
-    <div class="body">
-        <h1>Computer Shop</h1>
-        <h2>Mi smo ruska firma u Srbiji koja sabira PC. <br> Na našem sajtu možete naći:</h2> <p>Modele PC za sve korisnike <br> Informacije o pc i userguides <br> kontakt servis</p>
-    </div>
+    <form class="prijava">
+        <h2>Registruj se</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+
+        <label for="datum-rodjenja">Datum rodjenja:</label>
+        <input type="date" name="datum-rodjenja" id="datum-rodjenja">
+
+        <input type="submit" value="Registruj se">
+    </form>
 </body>
 </html>
