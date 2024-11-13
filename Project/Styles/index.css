@@ -18,3 +18,10 @@ header{
     background-color: #ffe066;
     
 }
+
+.meni ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  align-content: space-evenly;
+}
