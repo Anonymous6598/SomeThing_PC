@@ -1,6 +1,5 @@
 .meni {
-    background-color: #ffe066;
-    
+    background-color: #154734;
 }
 
 .meni ul{
@@ -11,9 +10,9 @@
 }
 
 .meni ul li a{
-  color: black;
   text-decoration: none;
   font-size: 20px;
+  color: white
 }
 
 .meni ul li{
