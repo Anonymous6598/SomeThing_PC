@@ -5,21 +5,33 @@
     max-width: 450px;
     position: fixed;
     top: 0;
-    right: -450px;
+    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.5rem;
     transition: .3s ease;
+    overflow: hidden;
+    z-index: 10;
+
 }
 
 .meni ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #154734;
     display: flex;
     align-items: center;
     align-content: space-evenly;
+}
+        
+.meni ul li {
+    margin: 15px 0;
 }
 
 .meni.active {
@@ -28,39 +40,58 @@
 
 nav {
     padding: 1rem;
-    display: flex;
     background-color: #154734;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 15;
+}
+
+.site-title a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #cccc00;
+}
+
+.site-title {
+    width: 100%;
+    float: left;
 }
 
 .ham-menu {
-    height: 50px;
-    width: 50px;
-    margin-left: auto;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ham-menu span {
-    height: 5px;
-    width: 100%;
+    height: 4px;
+    width: 30px;
     background-color: #cccc00;
-    border-radius: 25px;
+    border-radius: 2px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 3s ease;
+    transition: 0.3s ease;
 }
 
 .ham-menu span:nth-child(1) {
-    top: 25%;
+    top: 10px;
 }
+
+.ham-menu span:nth-child(2) {
+    top: 18px;
+}
+
 .ham-menu span:nth-child(3) {
-    top: 75%;
+    top: 26px;
 }
 
 .ham-menu.active span:nth-child(1) {
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
+    transform: rotate(45deg);
+    top: 18px;
 }
 
 .ham-menu.active span:nth-child(2) {
@@ -68,8 +99,48 @@ nav {
 }
 
 .ham-menu.active span:nth-child(3) {
-    top: 50%;
-    transform: translate(-50%, 50%) rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .meni {
+        right: -100%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .meni {
+        position: relative; 
+        height: auto;
+        width: 100%;
+        max-width: none;
+        background-color: #154734;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+
+    .meni ul {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .meni ul li {
+        margin: 0;
+    }
+
+    .ham-menu {
+        display: none;
+    }
 }
 
 
+@media screen and (min-width: 700px) {
+    .meni ul li a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+}

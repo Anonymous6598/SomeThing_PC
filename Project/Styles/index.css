@@ -9,18 +9,19 @@ header {
     top: 0;
     left: 0;
 }
-
+/*
 .meni {
     background-color: #154734;
-    position: sticky;
 }
 
-.meni ul{
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+@media screen and (max-width: 600px) {
+  .meni a {
+    float: none;
+    width: 100%;
 }
+}
+
+
 
 .meni ul li a{
   color: black;
@@ -35,4 +36,4 @@ header {
 .meni ul li:hover{
   background-color: lightgray;
 }
-  
+  */
