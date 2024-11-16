@@ -1,3 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    padding: 0 0em;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.meni {
+    background-color: #154734;
+}
+
+    .meni ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        align-content: space-evenly;
+    }
+
 .prijava{
     box-shadow: 4px 4px 10px grey;
     margin-left: 5%;
@@ -13,6 +38,7 @@
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 1%;
+    color: black;
 }
 
 .prijava input{
@@ -23,6 +49,8 @@
     width: 70%;
     height: 4%;
     border: 1px solid black;
+    
+    
 }
 
 .prijava input:focus{
@@ -30,3 +58,14 @@
     border: none;
 }
 
+.prijava a{
+    color: black;
+}
+
+.prijava h2{
+    color: black;
+}
+
+#password {
+    color: black;
+}

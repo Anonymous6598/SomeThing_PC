@@ -5,3 +5,19 @@
     border-radius: 5%;
     text-decoration: none;
 }
+
+.choose_GPU select {
+    color: black;
+}
+
+.choose_GPU select option{
+    color: black;
+}
+
+.data input {
+    color: black;
+}
+
+.comment textarea {
+    color: black;
+}

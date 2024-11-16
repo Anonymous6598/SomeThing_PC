@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://th.bing.com/th/id/R.022ad64fc589cedc1e6dcdf1229d2571?rik=0q9jXc2JSZudWw&pid=ImgRaw&r=0');
+    background-image: url('https://www.publicdomainpictures.net/pictures/170000/velka/matrix-1461373324WTC.jpg');
 }
 
 .meni {
@@ -36,5 +36,9 @@ body {
 
 .btn_color {
   background-color: #154734;
+  color: white;
+}
+
+* {
   color: white;
 }
