@@ -10,18 +10,24 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    animation: fadeIn 3s;
+}
+
+nav {
+    animation: fadeIn 3s;
 }
 
 .meni {
     background-color: #154734;
+    animation: fadeIn 3s;
 }
 
-    .meni ul {
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        align-content: space-evenly;
-    }
+.meni ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    align-content: space-evenly;
+}
 
 .prijava{
     box-shadow: 4px 4px 10px grey;
@@ -31,6 +37,7 @@ header {
     background-color: #FAF8F8;
     padding-bottom: 2%;
     margin-bottom: 2%;
+    animation: fadeIn 3s;
 }
 
 .prijava label{
@@ -68,4 +75,14 @@ header {
 
 #password {
     color: black;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
 }

@@ -8,7 +8,13 @@
 header {
     top: 0;
     left: 0;
+    animation: fadeIn 3s;
 }
+
+.body {
+    animation: fadeIn 3s;
+}
+
 /*
 .meni {
     background-color: #154734;
@@ -37,3 +43,13 @@ header {
   background-color: lightgray;
 }
   */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}

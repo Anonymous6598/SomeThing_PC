@@ -11,16 +11,35 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    animation: fadeIn 3s;
 }
 
 .meni {
     background-color: #154734;
 }
 
-    .meni ul {
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        align-content: space-evenly;
+h1 {
+    animation: fadeIn 3s;
+}
+
+p {
+    animation: fadeIn 3s;
+}
+
+.meni ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0%;
     }
+
+    to {
+        opacity: 100%;
+    }
+}
         
