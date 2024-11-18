@@ -15,35 +15,6 @@ header {
     animation: fadeIn 3s;
 }
 
-/*
-.meni {
-    background-color: #154734;
-}
-
-@media screen and (max-width: 600px) {
-  .meni a {
-    float: none;
-    width: 100%;
-}
-}
-
-
-
-.meni ul li a{
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.meni ul li{
-  padding: 1em;
-}
-
-.meni ul li:hover{
-  background-color: lightgray;
-}
-  */
-
 @keyframes fadeIn {
     from {
         opacity: 0%;

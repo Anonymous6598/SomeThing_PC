@@ -10,15 +10,78 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    animation: fadeIn 3s;
+}
+
+nav {
+    animation: fadeIn 3s;
 }
 
 .meni {
     background-color: #154734;
+    animation: fadeIn 3s;
 }
 
-    .meni ul {
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        align-content: space-evenly;
+.meni ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.prijava {
+    box-shadow: 4px 4px 10px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 0%;
+    background-color: #FAF8F8;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    animation: fadeIn 3s;
+}
+
+.prijava label {
+    margin: auto;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1%;
+    color: black;
+}
+
+.prijava input {
+    margin-bottom: 2%;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    height: 4%;
+    border: 1px solid black;
+}
+
+.prijava input:focus {
+    outline: 1px solid burlywood;
+    border: none;
+}
+
+.prijava a {
+    color: black;
+}
+
+.prijava h2 {
+    color: black;
+}
+
+#password {
+    color: black;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0%;
     }
+
+    to {
+        opacity: 100%;
+    }
+}
